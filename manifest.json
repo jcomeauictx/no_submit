@@ -1,6 +1,6 @@
 {
   "name": "I will not submit!",
-  "version": "0.0.0.3",
+  "version": "0.0.0.4",
   "description": "Submit buttons will be changed to 'Make it so!'",
   "permissions": ["activeTab"],
   "content_scripts": [
