@@ -1,0 +1,13 @@
+{
+  "name": "I will not submit!",
+  "version": "0.0.0.3",
+  "description": "Submit buttons will be changed to 'Make it so!'",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["no_submit.js"]
+    }
+  ],
+  "manifest_version": 2
+}
